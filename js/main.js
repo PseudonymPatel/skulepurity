@@ -40,7 +40,7 @@ function openQuestionsFile() {
 	var rawFile = new XMLHttpRequest();
 	var allText = "";
 
-	rawFile.open("GET", "../lists/core.txt", false);
+	rawFile.open("GET", "/lists/core.txt", false);
     rawFile.onreadystatechange = function() {
         if(rawFile.readyState === 4) {
             if(rawFile.status === 200 || rawFile.status == 0) {
