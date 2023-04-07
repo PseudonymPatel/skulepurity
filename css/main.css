@@ -1,0 +1,10 @@
+* {
+	background-color: tan;
+	font-family: sans-serif;
+}
+
+body {
+	min-width: 30em;
+	width: 80vw;
+	margin: auto;
+}
