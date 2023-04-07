@@ -8,3 +8,16 @@ body {
 	width: 80vw;
 	margin: auto;
 }
+
+input {
+	margin: 10px;
+	padding: 10px 30px;
+	border-radius: 10px;
+	border-width: 4px;
+	border-color: blue;
+	background: white;
+}
+
+#submit-test, #start-test {
+  background: yellow;
+}

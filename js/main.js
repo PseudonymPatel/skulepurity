@@ -16,8 +16,8 @@ function makeLine(item) {
 		return "";
 	}
 
-	if (item.split(0,1) == "#") {
-		return "<h2>" + item + "</h2>";
+	if (item.slice(0,1) == "#") {
+		return "<h2>" + item.slice(2) + "</h2>";
 	}
 
 	return "<li><div style=\"display: inline-flex;\"><input type=\"checkbox\" class=\"ques\" /><p>" + item + "</p></div></li>";
