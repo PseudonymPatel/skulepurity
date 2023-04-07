@@ -1,6 +1,6 @@
 function makeTestHTML() {
 	const text = openQuestionsFile();
-	var lines = text.split("\r\n");
+	var lines = text.split(";");
 	var hhh = "";
 
 	for (i = 0; i < lines.length; i++) {
@@ -16,7 +16,7 @@ function makeLine(item) {
 		return "";
 	}
 
-	if (item.slice(0,1) == "#") {
+	if (item.includes("#")) {
 		return "<h2>" + item.slice(2) + "</h2>";
 	}
 
